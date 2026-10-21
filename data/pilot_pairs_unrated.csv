@@ -1,0 +1,11 @@
+pair_id,sentence1,sentence2
+P01,The clinic is open on Saturday.,The clinic is not open on Saturday.
+P02,The library is not open today.,The library is closed today.
+P03,The rent increased this year.,The rent decreased this year.
+P04,The suitcase is heavy.,The suitcase is light.
+P05,The bus arrives at 8:15 am.,The bus arrives at 8:50 am.
+P06,The walk lasted sixty minutes.,The walk lasted one hour.
+P07,The dog chased the boy.,The boy chased the dog.
+P08,The teacher thanked the student.,The student was thanked by the teacher.
+P09,I will stop at the servo for petrol.,I will stop at the petrol station for fuel.
+P10,She packed her swimmers for the beach.,She packed her swimming costume for the beach.

@@ -1,0 +1,18 @@
+COMP8240: FOUR SHORT CHATGPT JUDGE RUNS
+
+Purpose: collect AI judgments independently of the human ratings. No extra human rating is required.
+
+1. Use a fresh ChatGPT chat for EACH of the four prompt files. Keep this report conversation and all human ratings out of those chats. If memory or past-chat reference is enabled, disable it for the judge sessions in Settings > Personalization, or use an available mode that excludes saved memory and prior chats. Do not use a project that contains the ratings.
+2. Select the same visible model/mode for all four runs if possible. Copy the model label exactly as displayed. If there is no label, write "not displayed"; do not ask ChatGPT to guess its identity.
+3. Open 1_PROMPT_A_original.txt, copy ALL its contents, and paste it into the first fresh chat.
+4. Keep the first complete answer. Copy the full answer, including its reasons, into a text file named A_original.json. A .txt file is also fine when sending it back here. Keep screenshots if copying is difficult; avoid showing personal account details.
+5. Repeat in three separate fresh chats with files 2, 3, and 4. Save the answers as A_reversed.json, B_original.json, and B_reversed.json.
+6. Fill in run_log.csv, or simply tell me the visible model label, date, mode, whether memory/history was excluded, and whether you had to retry. In the ChatGPT interface, record temperature as "not exposed" unless you actually controlled it.
+7. Send all four answers and the run details back to this conversation. I will calculate the comparisons and complete the report's judge-results section.
+
+Do not show the judge the human ratings, report draft, SBERT scores, or your preferred scores. Do not correct its judgments or regenerate answers to seek better agreement. If a response is incomplete or malformed, preserve it and tell me what happened; a formatting repair must be recorded.
+
+Two prompts and sentence-order reversal check sensitivity. They are four runs of one system, not four independent human annotators. Sentence pairs are the only study data sent to the judge; no participant information is included.
+
+Memory-settings reference (accessed 17 October 2026):
+https://learn.chatgpt.com/docs/customization/memories

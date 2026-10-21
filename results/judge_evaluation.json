@@ -1,0 +1,93 @@
+{
+  "status": "collected responses analysed; consult run log for model and session details",
+  "runs": [
+    {
+      "run_id": "A_original",
+      "response_sha256": "ceda082ec056a835afdcdd23a038438dfa921be5a3cd880f4775519517dd9878",
+      "items": 10,
+      "mean_absolute_difference_from_human_mean": 0.3666666666666666,
+      "spearman_llm_human": 0.9455367444469505,
+      "spearman_llm_human_ci95": [
+        0.7874992309581579,
+        1.0
+      ],
+      "bootstrap_valid": 4995,
+      "spearman_llm_sbert": 0.4221158824088691
+    },
+    {
+      "run_id": "A_reversed",
+      "response_sha256": "43fc00446de133e4e274ea9168a7232d45eeea2120269c569a92d9be994acf0b",
+      "items": 10,
+      "mean_absolute_difference_from_human_mean": 0.3666666666666666,
+      "spearman_llm_human": 0.9455367444469505,
+      "spearman_llm_human_ci95": [
+        0.7874992309581579,
+        1.0
+      ],
+      "bootstrap_valid": 4995,
+      "spearman_llm_sbert": 0.4221158824088691
+    },
+    {
+      "run_id": "B_original",
+      "response_sha256": "617511f9e8119cd48e30bc9a8a6240832642044ab47e570d711d572c626e2da3",
+      "items": 10,
+      "mean_absolute_difference_from_human_mean": 0.3666666666666666,
+      "spearman_llm_human": 0.9455367444469505,
+      "spearman_llm_human_ci95": [
+        0.7874992309581579,
+        1.0
+      ],
+      "bootstrap_valid": 4995,
+      "spearman_llm_sbert": 0.4221158824088691
+    },
+    {
+      "run_id": "B_reversed",
+      "response_sha256": "8b2929214a8627ef07de6437e706a360cae0faffa39ee9dfb26ce73831755808",
+      "items": 10,
+      "mean_absolute_difference_from_human_mean": 0.4666666666666666,
+      "spearman_llm_human": 0.895454253019645,
+      "spearman_llm_human_ci95": [
+        0.5497813323246556,
+        0.9999999999999997
+      ],
+      "bootstrap_valid": 4999,
+      "spearman_llm_sbert": 0.3943699921394939
+    }
+  ],
+  "sensitivity": [
+    {
+      "factor": "orientation under A",
+      "first": "A_original",
+      "second": "A_reversed",
+      "items_changed": 0,
+      "mean_absolute_score_change": 0.0,
+      "maximum_absolute_score_change": 0.0
+    },
+    {
+      "factor": "orientation under B",
+      "first": "B_original",
+      "second": "B_reversed",
+      "items_changed": 1,
+      "mean_absolute_score_change": 0.1,
+      "maximum_absolute_score_change": 1.0
+    },
+    {
+      "factor": "prompt under original orientation",
+      "first": "A_original",
+      "second": "B_original",
+      "items_changed": 0,
+      "mean_absolute_score_change": 0.0,
+      "maximum_absolute_score_change": 0.0
+    },
+    {
+      "factor": "prompt under reversed orientation",
+      "first": "A_reversed",
+      "second": "B_reversed",
+      "items_changed": 1,
+      "mean_absolute_score_change": 0.1,
+      "maximum_absolute_score_change": 1.0
+    }
+  ],
+  "sbert_human_spearman": 0.20273070589573783,
+  "interpretation": "Four conditions are repeated system judgments, not independent human raters. Absolute score differences assume numerical distances on the 0-5 scale."
+}

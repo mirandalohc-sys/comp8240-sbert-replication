@@ -1,0 +1,7 @@
+{
+  "dataset:sentence-transformers/stsb": "ab7a5ac0e35aa22088bdcf23e7fd99b220e53308",
+  "dataset:tabilab/biosses": "2394a2eda8dae34a30f68f0770775fd5c2e863bd",
+  "dataset:google-research-datasets/paws": "161ece9501cf0a11f3e48bd356eaa82de46d6a09",
+  "model:sentence-transformers/bert-base-nli-mean-tokens": "160a52b38a51ae87295ec3eabcf11755e5d27a8d",
+  "model:google-bert/bert-base-uncased": "86b5e0934494bd15c9632b12f734a8a67f723594"
+}

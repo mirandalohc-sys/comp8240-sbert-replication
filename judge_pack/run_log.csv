@@ -1,0 +1,5 @@
+run_id,model_label_visible,date_time_timezone,mode_visible,memory_history_excluded,temperature,retry_or_repair_notes
+A_original,GPT-5.6 Sol High,22 October 2026 (AEDT),standard chat,memory disabled,not exposed,none
+A_reversed,GPT-5.6 Sol High,22 October 2026 (AEDT),standard chat,memory disabled,not exposed,none
+B_original,GPT-5.6 Sol High,22 October 2026 (AEDT),standard chat,memory disabled,not exposed,none
+B_reversed,GPT-5.6 Sol High,22 October 2026 (AEDT),standard chat,memory disabled,not exposed,none

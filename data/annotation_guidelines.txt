@@ -1,0 +1,21 @@
+SENTENCE SIMILARITY PILOT
+
+Judge how similar the meanings of the two sentences are.
+Use a whole number from 0 to 5:
+
+5: Both sentences express the same complete meaning.
+4: The main meaning matches; only minor details differ.
+3: Meanings are broadly similar, but important information differs.
+2: Some details match, but the overall meanings differ.
+1: Only the general topic is shared.
+0: The meanings are unrelated.
+
+Judge meaning, not the number of matching words.
+A contradiction is not automatically a score of zero.
+
+Work independently. Do not consult another rater, AI, or model scores.
+Enter your rating in human_score.
+Use comment to flag unclear wording or unfamiliar expressions.
+If you cannot judge a pair, leave its score blank and explain why.
+Do not change the sentences or pair IDs.
+Do not include your name or other identifying information.

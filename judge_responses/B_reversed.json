@@ -1,0 +1,52 @@
+[
+  {
+    "pair_id": "P01",
+    "llm_score": 2,
+    "reason": "The clinic and day match, but the sentences make opposite claims about whether it is open."
+  },
+  {
+    "pair_id": "P02",
+    "llm_score": 5,
+    "reason": "Both state that the library is closed today."
+  },
+  {
+    "pair_id": "P03",
+    "llm_score": 2,
+    "reason": "Both describe this year's rent change, but they assert opposite directions of change."
+  },
+  {
+    "pair_id": "P04",
+    "llm_score": 2,
+    "reason": "Both describe the suitcase's weight, but they assert opposite properties."
+  },
+  {
+    "pair_id": "P05",
+    "llm_score": 3,
+    "reason": "Both describe a morning bus arrival, but the specified arrival times differ by 35 minutes."
+  },
+  {
+    "pair_id": "P06",
+    "llm_score": 5,
+    "reason": "One hour and sixty minutes express exactly the same duration for the walk."
+  },
+  {
+    "pair_id": "P07",
+    "llm_score": 2,
+    "reason": "Both describe a chase involving the boy and the dog, but they reverse who chased whom."
+  },
+  {
+    "pair_id": "P08",
+    "llm_score": 5,
+    "reason": "Both describe the teacher thanking the student, with the same roles preserved across passive and active wording."
+  },
+  {
+    "pair_id": "P09",
+    "llm_score": 4,
+    "reason": "Both describe a planned stop at a petrol station, but petrol specifies a particular type of fuel."
+  },
+  {
+    "pair_id": "P10",
+    "llm_score": 5,
+    "reason": "Both say she packed her swimming costume for the beach, with swimmers referring to the same clothing."
+  }
+]

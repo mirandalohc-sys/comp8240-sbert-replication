@@ -1,0 +1,52 @@
+[
+  {
+    "pair_id": "P01",
+    "llm_score": 2,
+    "reason": "Both concern the clinic's Saturday availability, but they make opposite claims about whether it is open."
+  },
+  {
+    "pair_id": "P02",
+    "llm_score": 5,
+    "reason": "Both state that the library is closed today."
+  },
+  {
+    "pair_id": "P03",
+    "llm_score": 2,
+    "reason": "Both describe this year's rent change, but the directions of change are opposite."
+  },
+  {
+    "pair_id": "P04",
+    "llm_score": 2,
+    "reason": "Both describe the suitcase's weight, but they give opposite descriptions."
+  },
+  {
+    "pair_id": "P05",
+    "llm_score": 3,
+    "reason": "Both describe a morning bus arrival, but they specify different arrival times."
+  },
+  {
+    "pair_id": "P06",
+    "llm_score": 5,
+    "reason": "One hour and sixty minutes describe exactly the same walking duration."
+  },
+  {
+    "pair_id": "P07",
+    "llm_score": 2,
+    "reason": "Both describe a chase involving a boy and a dog, but they reverse who is chasing whom."
+  },
+  {
+    "pair_id": "P08",
+    "llm_score": 5,
+    "reason": "Both describe the teacher thanking the student, with only the grammatical voice changing."
+  },
+  {
+    "pair_id": "P09",
+    "llm_score": 5,
+    "reason": "Both express the same planned refuelling stop, using servo as an equivalent of petrol station."
+  },
+  {
+    "pair_id": "P10",
+    "llm_score": 5,
+    "reason": "Both describe her packing swimwear for the beach, using equivalent terms for the clothing."
+  }
+]

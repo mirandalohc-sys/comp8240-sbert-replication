@@ -1,0 +1,44 @@
+{
+  "created_utc_date": "2026-10-17",
+  "status": "protocol prepared 17 October 2026; four judge responses collected 22 October 2026 (see judge_responses/ and run_log.csv)",
+  "design": "2 prompt variants x 2 sentence orientations; one fresh session per run",
+  "item_order": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10"
+  ],
+  "known_limitation": "Protocol was prepared after human and SBERT analysis; it is not preregistered. The judge inputs contain neither those results nor categories.",
+  "runs": [
+    {
+      "run_id": "A_original",
+      "prompt_file": "1_PROMPT_A_original.txt",
+      "expected_output_file": "A_original.json",
+      "sha256": "2438d85476c748e058c3aef2cc15def6aad4ea5e6c5c9030d85b1edd0b78b443"
+    },
+    {
+      "run_id": "A_reversed",
+      "prompt_file": "2_PROMPT_A_reversed.txt",
+      "expected_output_file": "A_reversed.json",
+      "sha256": "0149cbbdfd5a830b34c5490cd9ad783d6917963e9e2872bdd07928e576776c6a"
+    },
+    {
+      "run_id": "B_original",
+      "prompt_file": "3_PROMPT_B_original.txt",
+      "expected_output_file": "B_original.json",
+      "sha256": "bc5facbc09b56e8169fb092501849dc96c75fcc20feaead770c3aee8951d7f09"
+    },
+    {
+      "run_id": "B_reversed",
+      "prompt_file": "4_PROMPT_B_reversed.txt",
+      "expected_output_file": "B_reversed.json",
+      "sha256": "3520e32604742dbfecd8311a647bd890d4aa787adb0ff5b5fb8e587d8ba394e0"
+    }
+  ]
+}
