@@ -1,0 +1,104 @@
+{
+  "python": "3.13.15",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "device": "cuda",
+  "started_utc": "2026-10-21T16:19:46.504318+00:00",
+  "packages": {
+    "torch": "2.11.0+cu130",
+    "sentence-transformers": "6.1.0",
+    "transformers": "5.20.1",
+    "datasets": "5.1.0",
+    "scipy": "1.16.3",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3"
+  },
+  "model_revisions": {
+    "AVG_GLOVE": {
+      "repo": "sentence-transformers/average_word_embeddings_glove.6B.300d",
+      "revision": "e5e8fec6971be8960cfaa853a77a6ddc62a265d7"
+    },
+    "AVG_BERT": {
+      "repo": "google-bert/bert-base-uncased",
+      "revision": "86b5e0934494bd15c9632b12f734a8a67f723594"
+    },
+    "SBERT_NLI_BASE": {
+      "repo": "sentence-transformers/bert-base-nli-mean-tokens",
+      "revision": "160a52b38a51ae87295ec3eabcf11755e5d27a8d"
+    },
+    "SBERT_NLI_LARGE": {
+      "repo": "sentence-transformers/bert-large-nli-mean-tokens",
+      "revision": "a85b0d10e16867eb768e411c66f79475505b65dd"
+    }
+  },
+  "dataset_revisions": {
+    "STS12": {
+      "repo": "mteb/sts12-sts",
+      "split": "test",
+      "revision": "3a51344839ec620dd3b753e0945bdf6c7e37af3e"
+    },
+    "STS13": {
+      "repo": "mteb/sts13-sts",
+      "split": "test",
+      "revision": "f475812ca75868066186343ebf60e01f95c75164"
+    },
+    "STS14": {
+      "repo": "mteb/sts14-sts",
+      "split": "test",
+      "revision": "8ab5e540b20b58d42fa6b944d3accee9df3fbaca"
+    },
+    "STS15": {
+      "repo": "mteb/sts15-sts",
+      "split": "test",
+      "revision": "ae8e1ecbd3b3bcf5c1c8fd798290033715d98b93"
+    },
+    "STS16": {
+      "repo": "mteb/sts16-sts",
+      "split": "test",
+      "revision": "d8e3be175a943eecfea09c96795087771996197c"
+    },
+    "STSb": {
+      "repo": "sentence-transformers/stsb",
+      "split": "test",
+      "revision": "ab7a5ac0e35aa22088bdcf23e7fd99b220e53308"
+    },
+    "SICK-R": {
+      "repo": "mteb/sickr-sts",
+      "split": "test",
+      "revision": "b93b4e08b707e9c9bc478e543495c3ced0b9d81e"
+    }
+  },
+  "notes": [
+    "Spearman is computed over all pairs of each dataset (pooled), not averaged over sub-collections.",
+    "The mteb STS12-STS16 and SICK-R copies store lower-cased, tokenised text; SICK-R has all 9,927 pairs.",
+    "The paper does not state which SICK-R split or which STS12-STS16 aggregation it used."
+  ],
+  "timings_seconds": {
+    "AVG_GLOVE": 25.3,
+    "AVG_BERT": 38.3,
+    "SBERT_NLI_BASE": 41.3,
+    "SBERT_NLI_LARGE": 137.4
+  },
+  "summary": [
+    {
+      "model": "AVG_BERT",
+      "mean_abs_difference": 3.8283271855705294,
+      "max_abs_difference": 10.252131425514072
+    },
+    {
+      "model": "AVG_GLOVE",
+      "mean_abs_difference": 1.7655971908697754,
+      "max_abs_difference": 4.023108984939739
+    },
+    {
+      "model": "SBERT_NLI_BASE",
+      "mean_abs_difference": 0.02994382158532614,
+      "max_abs_difference": 0.1540647411115259
+    },
+    {
+      "model": "SBERT_NLI_LARGE",
+      "mean_abs_difference": 0.04672807347459899,
+      "max_abs_difference": 0.2820157285531337
+    }
+  ],
+  "completed_utc": "2026-10-21T16:24:03.375936+00:00"
+}

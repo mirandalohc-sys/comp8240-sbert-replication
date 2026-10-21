@@ -17,6 +17,14 @@ To analyse the private pilot, the assessor needs the separately supplied pilot_r
 Only human agreement:
   python code/analyse_study.py --ratings-dir private_inputs --skip-models --output-dir run
 
+Replicate the paper's full unsupervised STS table (Table 1: STS12-16, STSb, SICK-R) for averaged GloVe, averaged BERT, SBERT-NLI-base and SBERT-NLI-large. A GPU is optional (about four minutes on a Colab T4):
+  python code/replicate_table1.py --output-dir run_table1
+The recorded run of 22 October 2026 is in results/table1_replication.json, results/table1_replication.csv and results/table1_environment.json.
+
+Reproduce the pilot SBERT and LLM-judge correlations from public files only (the ten pairs, the published three-rater means in data/pilot_human_means.csv and judge_responses/):
+  python code/reproduce_pilot_public.py
+  python code/reproduce_pilot_public.py --skip-sbert   (judge results only, no model download)
+
 Exploratory BIOSSES comparison after benchmark inference:
   python code/compare_biosses.py --study-dir run
 
