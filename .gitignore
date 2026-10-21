@@ -1,0 +1,6 @@
+private/
+private_inputs/
+run/
+__pycache__/
+*.pyc
+.venv/
